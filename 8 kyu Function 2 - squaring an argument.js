@@ -1,0 +1,1 @@
+let square = (arg) => arg ** 2
