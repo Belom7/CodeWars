@@ -1,0 +1,1 @@
+const eachCons = (l,n) => [...Array(Math.max(0,l.length-n+1)).keys()].map(i=>l.slice(i,i+n));
