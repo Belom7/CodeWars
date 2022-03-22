@@ -1,0 +1,1 @@
+const solve = eq => eq.split(/([-+*/])/).reverse().join(``);
