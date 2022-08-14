@@ -1,0 +1,1 @@
+const findNextPower = (n, p) => (((n + 0.1) ** (1 / p) | 0) + 1) ** p;
