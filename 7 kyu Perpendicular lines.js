@@ -1,0 +1,1 @@
+const maxBisectors = (n) => n ** 2 / 4 | 0;
