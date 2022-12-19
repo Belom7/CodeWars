@@ -1,10 +1,6 @@
 function newAvg(arr, newavg) {
-    let out = 0;
-    if ( arr.length !== 0 ){
-        let temp = newavg * (arr.length + 1) - arr.reduce((a, b) => a + b, 0)
-        out = Math.ceil(temp)
-    } else {
-        out = newavg
-    }
-    return out <= 0 ? error : out;
+    if (arr.length === 0) return newavg;
+    const actualAvg = arr.reduce((a,c) => a+c, 0) / arr.length;
+    const amtToAdd = Math.ceil(arr.length * (newavg - actualAvg) + newavg);
+    if (amtToAdd > 0) return amtToAdd; else throw ('Expected New Average is too low');
 }
