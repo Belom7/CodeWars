@@ -1,0 +1,1 @@
+const cyclops =(n, b=n.toString(2).split('0'))=> b.length===2 && b[0]===b[1]
