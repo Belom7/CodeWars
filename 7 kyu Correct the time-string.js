@@ -1,7 +1,9 @@
-function timeCorrect(str) {
-    const date = new Date();
-    if (str === '') return str;
-    if (!/^\d{2}\:\d{2}\:\d{2}$/g.test(str)) return null;
-    date.setUTCHours(...str.split(':'));
-    return date.toLocaleTimeString('en', {hour12: false});
+function timeCorrect(timestring) {
+    if (!timestring)
+        return timestring
+
+    if (!/^(\d\d:){2}\d\d$/.test(timestring))
+        return null
+
+    return (new Date(0,0,0,...timestring.split(':'))).toString().slice(16,24)
 }
