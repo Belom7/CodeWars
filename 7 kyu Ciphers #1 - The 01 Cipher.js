@@ -1,0 +1,1 @@
+const encode = plaintext => plaintext.replace(/[a-z]/gi, c => 1 - c.charCodeAt(0) % 2)
