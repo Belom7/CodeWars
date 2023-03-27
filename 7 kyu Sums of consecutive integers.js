@@ -1,0 +1,1 @@
+position=(x,y,n)=>n+y/x-(x-1)/2
