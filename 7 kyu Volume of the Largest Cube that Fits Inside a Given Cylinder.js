@@ -1,0 +1,1 @@
+const cubeVolume=(h,r)=>Math.min(h*h*h,4*Math.pow(r,3)/Math.sqrt(2))
