@@ -1,0 +1,1 @@
+let capitalize = (s, a) => s.split``.map((c, i) => a.includes(i) ? c.toUpperCase() : c).join(``)
