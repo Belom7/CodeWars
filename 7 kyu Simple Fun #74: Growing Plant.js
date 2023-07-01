@@ -1,0 +1,1 @@
+const growingPlant=(u,d,h)=>Math.max(Math.ceil((h-u)/(u-d)),0)+1;
