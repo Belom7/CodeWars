@@ -1,0 +1,1 @@
+const center=(s,w,f=' ',i=0)=>s.length<w ? center(i%2 ? s+f : f+s,w,f,i+1) : s
