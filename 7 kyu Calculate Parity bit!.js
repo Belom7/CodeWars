@@ -1,0 +1,1 @@
+const checkParity = (parity, bin) => (bin.match((/1/g) || []).length % 2 === 0 ? 'even' : 'odd') === parity ? 0 : 1;
