@@ -1,0 +1,1 @@
+const squaresNeeded=g=>g?g.toString(2).length:0
