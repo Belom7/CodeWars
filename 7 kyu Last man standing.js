@@ -1,0 +1,1 @@
+const lastManStanding = n => n < 6? 1 + (n > 1): 4 * lastManStanding(Math.floor(n / 4)) - 2 * (n % 4 < 2);
