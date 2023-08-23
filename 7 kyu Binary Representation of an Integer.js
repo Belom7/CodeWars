@@ -1,0 +1,1 @@
+const showBits = $ => [...($ >>> 0).toString(2).padStart(32, 0)].map(Number)
