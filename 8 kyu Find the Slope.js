@@ -1,0 +1,1 @@
+let slope = ([a, b, c, d]) => a === c ? "undefined" : "" + ((b - d) / (a - c));
