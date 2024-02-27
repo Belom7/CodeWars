@@ -1,0 +1,1 @@
+const translateDate = (dateStr) => [...dateStr].map(x => x !== '-' ? x.charCodeAt() - 50 : x).map(x => x < 10 ? '0' + x : x).join('')
