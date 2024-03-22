@@ -1,0 +1,10 @@
+function Adam(name = '.'){ return'Adam'+ name   }
+function has(name = '.') { return ' has ' + name}
+function a(name = '.')   { return 'a ' + name   }
+function dog(name = '.') { return 'dog' + name  }
+function The(name = '.') { return 'The ' + name }
+function name(name = '.'){ return 'name '+ name }
+function of(name = '.')  { return 'of ' + name  }
+function the(name = '.') { return 'the ' + name }
+function is(name = '.')  { return ' is ' + name }
+function also(name = '.'){ return 'also '+ name }
