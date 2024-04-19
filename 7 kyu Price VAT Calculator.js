@@ -1,7 +1,9 @@
-const Calculator = (r) => {
-    const rate = (r / 100 + 1)
-    return {
-        getNet: (p) => +(p / rate).toFixed(2),
-        getVat: (p) => +(p - (p / rate)).toFixed(2)
-    };
+function Calculator(vat){
+    this.getNet = function(grossPrice){
+        return +(100 * grossPrice / (100+vat)).toFixed(2);
+    }
+    this.getVat = function(grossPrice){
+        return +(vat * grossPrice / (100+vat)).toFixed(2);
+    }
+
 }
