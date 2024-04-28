@@ -8,5 +8,7 @@ function isTotal3() {
         variableInFunction = 1;
     })();
 
-    return simpleVariable + variableInLoop + variableInFunction;
+    var result = simpleVariable + variableInLoop + variableInFunction;
+
+    return result;
 }
