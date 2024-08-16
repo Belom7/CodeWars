@@ -1,0 +1,1 @@
+const buildFun = n => [...Array(n)].map((v, i) => () => i);
