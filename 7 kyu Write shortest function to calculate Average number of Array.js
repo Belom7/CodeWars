@@ -1,0 +1,1 @@
+const avg = (a) => a.reduce((p, c) => p + c) / a.length
