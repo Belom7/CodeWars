@@ -1,0 +1,1 @@
+const artefact = (name, age, location, status) => Object.freeze({name, age, location, status});
