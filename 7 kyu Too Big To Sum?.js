@@ -1,0 +1,1 @@
+const certainSum = (a,b) => [ a, b, a+b ].every(Number.isSafeInteger) && a+b ;
