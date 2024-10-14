@@ -1,0 +1,1 @@
+let regexMatches = (regex) => regex.source.split('|')
