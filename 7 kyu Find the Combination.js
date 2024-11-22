@@ -1,0 +1,1 @@
+const countCombinations = (string, key) => (string.match(RegExp(key, 'gi')) || []).length;
