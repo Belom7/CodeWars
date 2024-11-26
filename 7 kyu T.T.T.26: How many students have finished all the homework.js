@@ -1,0 +1,1 @@
+howMany=(S,[A,B],U)=>Math.max(A+B+U-S,-1)
