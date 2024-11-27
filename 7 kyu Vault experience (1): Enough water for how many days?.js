@@ -1,0 +1,1 @@
+const thirstyIn=(w,a)=>a.length?Math.floor(w/a.reduce((p,c)=>(p+=c<18?1:c<50?2:1.5),0)):-1
