@@ -1,0 +1,1 @@
+const countMissingCarriages = s => s.slice(-1).charCodeAt() - s.length - 64;
