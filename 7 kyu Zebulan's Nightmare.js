@@ -1,0 +1,1 @@
+const zebulansNightmare = functionName => functionName.replace(/_./g,v=>v[1].toUpperCase())
