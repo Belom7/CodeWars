@@ -1,0 +1,1 @@
+const findMagic = arr => arr.findIndex(i => arr[i] === i);
