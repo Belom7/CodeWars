@@ -1,0 +1,1 @@
+const displayLargeNumber=n=>(n+"").replace(/\d(?=(\d{3})+$)/g,x=>x+",")
