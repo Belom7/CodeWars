@@ -1,0 +1,1 @@
+const falsyOrTruthy=arr=>arr.filter(x=>!x==arr.length%2)
