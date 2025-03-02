@@ -1,0 +1,1 @@
+const solution = ( i => () => "GlaDOS".charCodeAt(i++%6) ) ( 0 ) ;
