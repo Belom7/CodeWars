@@ -1,0 +1,1 @@
+const sysNums = (n, sys) => /^\d+$/.test(x=n.toString(sys))?+x:x;
