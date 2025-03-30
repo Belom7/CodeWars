@@ -1,0 +1,1 @@
+const running = (a,fn,z) => a.map( (v,i) => z = i ? fn(z,v) : v ) ;
