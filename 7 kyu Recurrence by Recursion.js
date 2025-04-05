@@ -1,0 +1,1 @@
+const recurrence = (base, formula, term) => term>1 ? recurrence( formula(base), formula, term-1 ) : base;
